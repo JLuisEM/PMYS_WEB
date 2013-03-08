@@ -9,10 +9,10 @@ $(document).ready(function() {
 	});
 	
 	$("#slideshow").hover(function() {
-    	$("ul#nav").fadeIn();
+    	$("ul#navslides").fadeIn();
   	},
   		function() {
-    	$("ul#nav").fadeOut();
+    	$("ul#navslides").fadeOut();
   	});
 	
 });

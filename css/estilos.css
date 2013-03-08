@@ -164,7 +164,8 @@ header #centerpic
 	background-position: center;
     height : 100%;
     width: 30%;
-
+	position: relative; 
+z-index: 3;
 }
 
 header #rightpic
@@ -185,9 +186,8 @@ header #leftpic, header #centerpic, header #rightpic
 	padding: 0;	
 
 }
-#Slider
+#main
 {
-	background: url("../images/website_under_construction1.png") no-repeat;
 	background-color: #ffffff;
 	background-size: 100% auto;
 	background-position: center;
@@ -201,6 +201,80 @@ header #leftpic, header #centerpic, header #rightpic
 	margin-right: auto;
 	margin-bottom: 10px;
 	width: 70%;
-	
+
 }
+
+div#slideshow 
+{
+
+		margin-left: auto;
+	margin-right: auto;
+	width: 730px; 
+	height: 450px; 
+	padding: 0;
+	overflow: scroll; /* Allows the slides to be viewed using scrollbar if Javascript isn't available */ 
+	position: relative; 
+	z-index: 2;
+
+
+}
+
+	div#slideshow ul#navslides 
+	{
+		display: none;
+		list-style: none;
+		position: relative; 
+		top: 180px; 
+		z-index: 20;
+		padding: 0;
+
+	}
+		div#slideshow ul#navslides li#prev 
+		{
+			float: left; 
+			margin: 0;
+			padding: 0;
+		}
+		div#slideshow ul#navslides li#next 
+		{
+			float: right; 
+			margin: 0 ;
+			padding: 0;
+		}
+		div#slideshow ul#navslides li a 
+		{
+			display: block; 
+			width: 80px; 
+			height: 80px; 
+			text-indent: -9999px;
+			padding: 0;
+
+		}
+			div#slideshow ul#navslides li#prev a 
+			{
+				background: url("../images/prev.png");
+				padding: 0;
+			}
+			div#slideshow ul#navslides li#next a 
+			{
+				background: url("../images/next.png");
+				padding: 0;
+			}
+
+	div#slideshow ul#slides 
+	{
+		list-style: none;
+
+	}
+		div#slideshow ul#slides li 
+		{
+			margin: 0;
+
+		}
+		div#slideshow ul#slides li img
+		{
+			border-radius: 20px;
+
+		}
+
 
