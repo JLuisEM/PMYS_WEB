@@ -1,169 +1,209 @@
 body 
 {
-	background: #ffffff;
+background-image: url("../images/fondo.png");
+background-color: rgba(255,255,255,0.5);
+    
 	color: #4F4F4F;
 	font-family: Arial;
 	font-size: 16px;
 	text-align: center;
-}
+	margin: 0;
+	padding: 0;
 
+}
+section #Conteiner
+{
+	display: block;
+		margin: 0;
+	padding: 0;
+}
+h1
+{
+	background: url("../images/NewLogo.min.png"); 
+	background-position: center;
+    height : 28%;
+    width: 20%;
+
+	text-indent: -9999px;
+	position: absolute;
+	background-size: 100% 100%;
+	top:  25%; 
+  	left: 38%;
+}
 header
 {
 	background: url("../images/bgHeader3.jpg") no-repeat;
 	background-size: 100% 100%;
 	background-position: center;
-	width: 80%;
+	width: 70%;
 	height: 13em;
+
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
 
+	padding: 0.5em 0 0 0;
 }
 footer
 {
 	background-color: #252241;
 	width: 80%;
-	height: 2.5em;
-
+	height: 2em;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
-	border-radius: 20px;
+	margin-bottom: 0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 	padding: 0;
 	color: #ffffff;
 	font-size: 1.5em;
    	font-family: 'Paytone One', sans-serif;
    	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
-
+	display: block;
 }
 nav
 {
-	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
+
 	background-color: #504c6e;
 	width: 80%;
-	height: 4em;
+	height: 2.5em;
+	margin: 0;
+	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-
+	display: block;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.7), inset 0px 6px 10px rgba(255,255,255,0.7);
 }
 
 nav ul
 {
 	list-style-type: none;
-	background-color: #504c6e;
+	
 	margin: 0;
+
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+	height: 100%;
+padding: 0;
 }
 nav li
 {
-	background-color: #504c6e;
-	display: inline-block;
 
+	display: inline-block;
+	height: 100%;
+	padding: 0;
 }
 nav a
 {
-	padding-top: 0.2em;
+	height: 96%;
 	display: inline-block;
 	text-decoration: none;
-	margin: 0 0 0 0;
-	color: #9a93d1;
-	height: 2.4em;
+	color: #ffffff;
    	font-size: 1.5em;
-   	font-family: 'Paytone One', sans-serif;
-   	margin: 0 5px 0 0;
-   	border: 1px solid #504c6e;
-   	border-radius: 15px;
-   	padding-left: 10px;
-   	padding-right: 10px;
+	line-height: 1.5em;
+
+   	font-family: 'Simonetta';
+   	font-style: italic;
+	font-weight: 400;
+
+   	margin: 0 2px 0 2px;
+
+   	border: 1px solid rgba(0,0,0,0);
+
+
+   	padding-left: 20px;
+   	padding-right: 20px;
    	text-shadow: 3px 3px 7px rgba(0,0,0,0.7);
    	transition: all 0.5s ease;
    	-webkit-transition: all 0.5s ease;
-
 }
+
+
 nav a:hover
 {
-	background-color: #252241; 
 	color: #ffffff;
 	text-shadow: none;
-   	border: 1px solid #252241;
-   	border-radius: 15px;
+   	border: 1px solid #b3b3dd;
+   	
+   	box-shadow: inset 0px -5px 7px rgba(0,0,0,0.5);
+   	border-bottom-left-radius: 10px;
+   	border-bottom-right-radius: 25px;
+   	border-top-left-radius: 25px;
+   	border-top-right-radius: 10px;
+
 
 }
 
-#leftpic
+
+header #toppic
 {
-	background: url("../images/logo.png") no-repeat; 
+	display: block;
+	background: url("../images/nombreyeslogan.png") no-repeat; 
 	background-position: center;
-    height : 100%;
-    width: 25%;
-    margin: 0;
-    padding: 0;
+	background-size: 100% 100%;
+    height : 50%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
 }
-#centerpic
+header #leftpic
 {
-	background: url("../images/razon.png") no-repeat; 
+	background: url("../images/hacc.png") no-repeat; 
 	background-position: center;
-    height : 100%;
-    width: 40%;
-    margin: 0;
-    padding: 0;
-}
-#rightpic
-{
-	background: url("../images/certificados.png") no-repeat; 
-	background-position: center;
-    height : 70%;
+    height : 50%;
     width: 15%;
-    margin-left: 0;
-    margin-top: 2em;
-    padding: 0;
+	margin-right: 10%;
 }
-#centerpic, #leftpic, #rightpic
+
+header #centerpic
+{
+	background: url("../images/NewLogo4.min.png") no-repeat; 
+	background-position: center;
+    height : 100%;
+    width: 30%;
+
+}
+
+header #rightpic
+{
+	background: url("../images/fda.png") no-repeat; 
+	background-position: center;
+    height : 50%;
+    width: 15%;
+    margin-left: 10%;
+
+}
+
+header #leftpic, header #centerpic, header #rightpic
 {
 	background-size: 100% 100%;
 	display: inline-block;
 	vertical-align: top;
+	padding: 0;	
+
 }
-#Conteiner
+#Slider
 {
 	background: url("../images/website_under_construction1.png") no-repeat;
 	background-color: #ffffff;
 	background-size: 100% auto;
 	background-position: center;
+
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
 	box-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
 	height: 30em;
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	width: 79%;
-	border: 5px solid #9a93d1;
+	width: 70%;
+	
 }
-#fb
-{
-background: url("../images/facebook.png") no-repeat; 
 
-}
-#tw
-{
-background: url("../images/twitter.png") no-repeat; 
-
-}
-#fb, #tw
-{
-	display: inline-block;
-   height : 32px;
-    width: 32px;
-    margin-right: 10px;
-    background-size: 100% auto;
-}
