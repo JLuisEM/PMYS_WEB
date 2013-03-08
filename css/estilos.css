@@ -104,13 +104,10 @@ nav a
 	display: inline-block;
 	text-decoration: none;
 	color: #ffffff;
+
    	font-size: 1.5em;
+	font-family: Lobster,Arial,sans-serif;
 	line-height: 1.5em;
-
-   	font-family: 'Simonetta';
-   	font-style: italic;
-	font-weight: 400;
-
    	margin: 0 2px 0 2px;
 
    	border: 1px solid rgba(0,0,0,0);
@@ -126,10 +123,10 @@ nav a
 
 nav a:hover
 {
-	color: #ffffff;
+	color: #9a93d1;
 	text-shadow: none;
    	border: 1px solid #b3b3dd;
-   	
+
    	box-shadow: inset 0px -5px 7px rgba(0,0,0,0.5);
    	border-bottom-left-radius: 10px;
    	border-bottom-right-radius: 25px;
